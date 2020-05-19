@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #content{
+            font-size: 25px;
+            color: darkgreen;
+            width: 400px;
+            text-align: justify;
+            padding: 2px;
+            padding-top: 0;
+            margin: 0 auto;
+
+            max-height: 200px;
+            overflow: hidden;
+
+            -webkit-transition: max-height 0.7s;
+            -moz-transition: max-height 0.7s;
+            transition: 0.7s;
+        }
+        #content.open{
+            max-height: 800px;
+            -webkit-transition: max-height 0.7s;
+            -moz-transition: max-height 0.7s;
+            transition: max-height 0.7s;
+        }
+        #readMore{
+            font-size: 20px;
+            text-transform: uppercase;
+            background-color: green;
+            border-radius: 5px;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minima enim repudiandae illo. 
+        Hic maiores dignissimos sed sunt nesciunt illo itaque, nostrum at voluptas provident natus expedita
+         eius veritatis mollitia dolore pariatur rerum enim cum ipsam, ducimus,
+         quisquam quibusdam laborum! Illum, excepturi quo! Tempore, maiores. Lorem ipsum dolor sit amet 
+         consectetur adipisicing elit. Velit nam ab maxime, dolorem voluptates sed reprehenderit consectetur 
+         consequuntur porro optio necessitatibus dignissimos ut nesciunt deleniti, possimus reiciendis totam veritatis,
+          dicta aliquid doloremque praesentium.
+          Exercitationem possimus cum ex numquam totam dolorum.</p>
+    </div>
+    <button id="readMore">read-more</button>
+</body>
+</html>
